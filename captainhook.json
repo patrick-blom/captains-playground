@@ -5,12 +5,7 @@
             {
                 "action": "\\CaptainHook\\App\\Hook\\Message\\Action\\Rules",
                 "options": [
-                    "\\CaptainsPlayground\\GitHook\\Message\\StartWithValidPrefixBase"
-                ]
-            },
-            {
-                "action": "\\CaptainHook\\App\\Hook\\Message\\Action\\Rules",
-                "options": [
+                    "\\CaptainsPlayground\\GitHook\\Message\\StartWithValidPrefixBase",
                     "\\CaptainsPlayground\\GitHook\\Message\\StartWithValidPrefixRule"
                 ]
             }

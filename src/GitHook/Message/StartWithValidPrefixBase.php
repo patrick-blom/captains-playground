@@ -14,7 +14,7 @@ class StartWithValidPrefixBase extends Base
      */
     public function __construct()
     {
-        $this->hint = 'Your commit message has to start with "ARRG!"';
+        $this->hint = 'Your commit message has to start with "ARRG!" - '.__CLASS__;
     }
 
     /**

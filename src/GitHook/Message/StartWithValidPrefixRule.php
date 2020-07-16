@@ -15,7 +15,7 @@ class StartWithValidPrefixRule implements Rule
      */
     public function getHint(): string
     {
-       return 'Your commit message has to start with "ARRG!"';
+       return 'Your commit message has to start with "ARRG!" - '.__CLASS__;
     }
 
     /**
