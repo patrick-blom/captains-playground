@@ -1,0 +1,22 @@
+{
+    "name": "patrick-blom/captains-playground",
+    "description": "This is a playground repository for me and captainhook",
+    "type": "project",
+    "require-dev": {
+        "captainhook/captainhook": "^5.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Patrick Blom",
+            "email": "info@patrick-blom.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "CaptainsPlayground\\": "src"
+        }
+    }
+}
